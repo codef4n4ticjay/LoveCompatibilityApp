@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #f9c8d9, #f7b0b0);
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff7f7f;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+#compatibilityResult {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#loveMessage {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#compatibilityPercentage {
+    font-size: 18px;
+    font-weight: bold;
+}
